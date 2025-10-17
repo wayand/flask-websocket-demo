@@ -1,5 +1,9 @@
 # Flask WebSocket Demo
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A simple Flask application demonstrating real-time communication using WebSockets with the `flask-sock` library.
 
 ## Features
@@ -17,6 +21,10 @@ The application provides a simple row processing demonstration where:
 - The server processes numbers from 0 to the specified range
 - Each row is sent back to the client in real-time with a timestamp
 - Progress and completion status are displayed live in the browser
+
+## Screenshots
+![WebSocket demo screen-shot](screen.png)
+
 
 ## Installation
 
