@@ -9,6 +9,7 @@ A simple Flask application demonstrating real-time communication using WebSocket
 ## Features
 
 - **Real-time WebSocket communication** between client and server
+- **Efficient Data Streaming** using a Python generator function
 - **Interactive web interface** for sending messages
 - **Dynamic data processing** with live feedback
 - **Error handling** for invalid inputs
@@ -17,8 +18,8 @@ A simple Flask application demonstrating real-time communication using WebSocket
 ## Demo Functionality
 
 The application provides a simple row processing demonstration where:
-- Users enter a range value through a web form
-- The server processes numbers from 0 to the specified range
+- Users enter a range value or the text "users" through a web form
+- The server processes numbers from 0 to the specified range or processes the generator function
 - Each row is sent back to the client in real-time with a timestamp
 - Progress and completion status are displayed live in the browser
 
@@ -39,6 +40,8 @@ The application provides a simple row processing demonstration where:
 1. Run the Flask application:
    ```bash
    python main.py
+   or
+   flask run
    ```
 
 2. Open your web browser and navigate to:
